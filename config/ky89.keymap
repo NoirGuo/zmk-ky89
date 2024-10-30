@@ -29,7 +29,7 @@
 &kp C_MUTE  &kp TAB     &kp Q      &kp W     &kp E     &kp R      &kp T      &kp Y     &kp U      &kp I      &kp O     &kp P          &kp LBKT    &kp RBKT   &kp BSLH   &kp PG_DN
 &kp LC(X)   &kp CAPS    &kp A      &kp S     &kp D     &kp F      &kp G      &kp H     &kp J      &kp K      &kp L     &kp SEMICOLON  &kp SQT     &kp ENTER  &kp HOME
 &kp LC(C)   &kp LSHIFT  &kp Z      &kp X     &kp C     &kp V      &kp B      &kp N     &kp M      &kp COMMA  &kp DOT   &kp FSLH       &kp RSHIFT  &kp UP     &kp END
-&kp LC(V)   &none       &kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE  &kp SPACE  &kp RALT  &kp RCTRL  &mo 1      &kp LEFT  &kp DOWN       &kp RIGHT
+&kp LC(V)   &mo 1       &kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE  &kp SPACE  &kp RALT  &kp RCTRL  &mo 1      &kp LEFT  &kp DOWN       &kp RIGHT
             >;
 
             label = "Qwerty";
@@ -48,11 +48,11 @@
             //  |    |            |        |        |        |          |         |    |    |    |     |     |     |    |           |     |    |    |
 
             bindings = <
-&bootloader  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bootloader
-&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
-&trans       &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&bootloader  &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bootloader  &trans
+&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
+&trans       &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans
+&trans       &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
+&trans       &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans       &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
